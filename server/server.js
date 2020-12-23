@@ -763,8 +763,10 @@ var transporter = nodemailer.createTransport({
 // mapping is sometimes confusing
 // - http://abyz.me.uk/rpi/pigpio/
 // - https://pimylifeup.com/raspberry-pi-pinout/
-const pinNumberHeatingCooling = 17; // = Pin 11 = WiPiPin 0 = Pin11 = GPIO0 = BCM17
-const pinNumberMotor = 18; // = Pin12 = GPIO1 = BCM18 (PWM enabled)
+// const pinNumberHeatingCooling = 17; // = Pin 11 = WiPiPin 0 = Pin11 = GPIO0 = BCM17
+const pinNumberHeatingCooling = 12; // = Pin 32   Stephan: 07.12.2020
+// const pinNumberMotor = 18; // = Pin12 = GPIO1 = BCM18 (PWM enabled)
+const pinNumberMotor = 13; // = Pin33   Stephan: 07.12.2020
 const pinNumberTemperaturePlugDetection = 27; // Pin 13 = WiPiPin2 = GPIO2 = BCM17
 const pinNumberAudio = 22; // Pin 15 = WiPiPin3 = GPIO22
 
