@@ -3,8 +3,8 @@ Description=runs the BierBot server after startup
 After=network.target
 
 [Service]
-ExecStart=node /home/pi/BierBot/server/server.js
-WorkingDirectory=/home/pi/BierBot/server
+ExecStart=/home/pi/BierBot/start.sh
+WorkingDirectory=/home/pi/BierBot
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
