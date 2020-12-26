@@ -10,7 +10,7 @@ var mkdirp = require('mkdirp');
 // settings
 var version = '0.0.0'; // own version
 var settingUpdateURLs = [
-   "https://raw.githubusercontent.com/BernhardSchlegel/BierBot/master/server/libs/version-self.json",
+   "https://raw.githubusercontent.com/pangamut/BierBot/master/server/libs/version-self.json",
 ];
 
 // variables
